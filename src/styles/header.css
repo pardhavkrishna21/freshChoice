@@ -1,0 +1,10 @@
+:root{--brand:#0b8f4d;--muted:#6b6375}
+.site-header{border-bottom:1px solid var(--muted);padding:12px 0;background:var(--bg)}
+.site-header .container{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:0 16px}
+.brand{margin:0;font-size:20px;color:var(--brand)}
+.nav{display:flex;gap:12px}
+.nav-link{padding:6px 10px;border-radius:6px;text-decoration:none;color:var(--text)}
+.nav-link.active{background:var(--accent-bg);color:var(--text-h);border:1px solid var(--accent-border)}
+.main{padding:24px}
+.page{padding:24px}
+.page h2{margin-top:0}
